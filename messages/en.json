@@ -1,0 +1,521 @@
+{
+  "meta": {
+    "siteName": "Stellar Consulting",
+    "tagline": "Healthcare Consultancy Agency",
+    "description": "Stellar is a 360 healthcare consultancy firm providing integrated solutions across healthcare advertising, scientific communication, market access, and healthcare partnerships."
+  },
+  "nav": {
+    "home": "Home",
+    "company": "Our Company",
+    "whoWeAre": "Who We Are",
+    "partners": "Partners",
+    "contact": "Contact Us",
+    "services": "Services",
+    "blogs": "Blogs",
+    "gallery": "Gallery",
+    "requestMeeting": "Request a Meeting",
+    "languageSwitch": "Switch language",
+    "themeToggle": "Toggle dark mode",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "services": {
+    "events": "Event & Exhibition Management",
+    "technology": "Digital and Innovative Solutions",
+    "workshop": "Workshop Consultancy",
+    "medicoMarketing": "Medico-Marketing",
+    "scientificResearch": "Scientific Research",
+    "advertising": "Healthcare Advertising & Brand Engagement",
+    "medicalAffairs": "Medical Affairs & Communication Solutions",
+    "marketAccess": "Market Access & Payer Strategy",
+    "healthSystem": "Health System Partnerships"
+  },
+  "home": {
+    "hero": {
+      "discover": "Discover More",
+      "slides": [
+        { "title": "Creative That Connects.", "subtitle": "Campaigns That Convert.", "alt": "Healthcare Advertising" },
+        { "title": "Clarity in Science.", "subtitle": "Power in Communication.", "alt": "Medical Affairs" },
+        { "title": "Access with Insight.", "subtitle": "Value with Impact.", "alt": "Market Access" },
+        { "title": "Partnerships that Matter.", "subtitle": "Outcomes that Last.", "alt": "Health System Partnerships" },
+        { "title": "Powered by Digital.", "subtitle": "Driven by Innovation.", "alt": "Digital Solutions" }
+      ]
+    },
+    "about": {
+      "eyebrow": "ABOUT",
+      "brandName": "STELLAR",
+      "heading": "Transforming Healthcare Through",
+      "headingHighlight": "Innovative Solutions",
+      "intro": "Stellar is a 360 healthcare consultancy firm providing integrated solutions across healthcare advertising, scientific communication, market access, and healthcare partnerships.",
+      "introContinued": "For 15 years, we have been committed to delivering premium quality and innovative solutions that exceed our customers' expectations, supporting healthcare organizations in navigating complex markets and creating meaningful impact across the healthcare ecosystem.",
+      "stats": {
+        "years": "Years of Excellence",
+        "projects": "Successful Projects",
+        "countries": "Countries Served",
+        "satisfaction": "Client Satisfaction"
+      },
+      "cta": "Discover Our Journey"
+    },
+    "servicesSection": {
+      "eyebrow": "OUR",
+  "heading": "SERVICES",
+  "viewAllTitle": "Explore everything we do",
+  "viewAllBody": "Strategy, creative, scientific communication, market access, and digital — under one roof.",
+  "viewAllButton": "View all services",
+      "items": {
+        "advertising": {
+          "title": "Healthcare Advertising & Brand Engagement",
+          "description": "Innovative brand engagement strategies and creative healthcare advertising solutions that resonate with target audiences and drive measurable results."
+        },
+        "medicalAffairs": {
+          "title": "Medical Affairs & Communication Solutions",
+          "description": "Strategic medical communication and affairs support that bridges clinical evidence with practical healthcare applications."
+        },
+        "marketAccess": {
+          "title": "Market Access & Payer Strategy",
+          "description": "Expert guidance in navigating complex market landscapes and developing effective payer engagement strategies."
+        },
+        "healthSystem": {
+          "title": "Health System Partnerships",
+          "description": "Building sustainable collaborations with healthcare systems to improve patient outcomes and operational efficiency."
+        },
+        "technology": {
+          "title": "Digital and Innovative Solutions",
+          "description": "Revolutionizing event management with innovative technologies that enhance engagement, efficiency, and reach."
+        }
+      }
+    },
+    "testimonials": {
+      "eyebrow": "Client",
+      "heading": "Testimonials",
+      "items": [
+        { "quote": "I would like to thank the stellar team for the amazing efforts — enjoyed working together", "author": "Peter", "role": "AstraZeneca" },
+        { "quote": "The Stars behind the scene. Thank you team — really we are one team, same spirit, dedication and ownership as it should be. Can't thank you enough.", "author": "Mostafa Gaafary", "role": "Novartis" },
+        { "quote": "A heartfelt thank you to Stellar team for all your efforts, we really appreciate this partnership.", "author": "Karim El Samra", "role": "Takeda" },
+        { "quote": "Thank you so much Stellar team for all your support and efforts.", "author": "Mariam", "role": "Sandoz" },
+        { "quote": "I would like to thank you so much for the great efforts done in both events of Novartis Academy.", "author": "Madonna Guirgis", "role": "Key Account Manager, Novartis" },
+        { "quote": "I feel comfortable working with Stellar that I sometimes challenge myself how can an agency excel as they do.", "author": "Khaled Elkhodeiry", "role": "Senior Brand Manager, AstraZeneca" },
+        { "quote": "Thanks for the great efforts to come out with such a qualified and professional program.", "author": "Miranda Arafa", "role": "Corporate Affairs Director, North Africa, Eli Lilly" },
+        { "quote": "Thank you Stellar team for the effort for making Saphnelo launch event a special one.", "author": "Ahmed Hassabou", "role": "AstraZeneca" }
+      ]
+    },
+    "partners": {
+      "eyebrow": "OUR",
+      "heading": "PARTNERS",
+      "subtitle": "COLLABORATING WITH INDUSTRY LEADERS TO DELIVER UNMATCHED EVENT SOLUTIONS",
+      "tabs": {
+        "all": "All Partners",
+        "success": "Partners in Success",
+        "accreditation": "Accreditation Partners",
+        "endorsing": "Endorsing Partners"
+      },
+      "viewAll": "All Partners"
+    },
+    "gallery": {
+      "eyebrow": "OUR",
+      "heading": "Gallery",
+      "subtitle": "WITNESS THE IMPACT OF OUR HEALTHCARE SOLUTIONS",
+      "filters": {
+        "all": "All Projects",
+        "events": "Events",
+        "booth": "Booth",
+        "training": "Medical Training",
+        "digital": "Digital Innovations"
+      },
+      "viewAll": "View Full Gallery",
+      "photoCount": "{count} photos"
+    },
+    "contact": {
+      "eyebrow": "Get in touch with",
+      "brandName": "Stellar",
+      "fields": {
+        "name": "Your Name",
+        "phone": "Phone Number",
+        "email": "Email Address",
+        "message": "Your Message"
+      },
+      "submit": "Submit",
+      "success": "Thank you — we'll be in touch shortly.",
+      "error": "Something went wrong. Please try again."
+    }
+  },
+  "footer": {
+    "description": "Stellar Consulting is a healthcare consulting firm dedicated to delivering impactful projects across the Middle East and Africa region for over 15 years. Our mission is to provide innovative, high-quality, and impactful products to our clients while utilizing a unique partnership approach.",
+    "quickLinks": "Quick Links",
+    "contactUs": "Contact Us",
+    "offices": {
+      "uae": {
+        "label": "UAE Office",
+        "address": "Building A2, FZA Business Park, Dubai Silicon Oasis, Dubai",
+        "phone": "+971-52-1159-551"
+      },
+      "ksa": {
+        "label": "KSA Office",
+        "address": "7306 King Fahd Road, Alwsham, Riyadh",
+        "phone": "+966-5-0009-7842 / +966-5-8499-8374"
+      },
+      "egypt": {
+        "label": "Egypt Office",
+        "address": "Villa 4, ElBanafseg 1, New Cairo, Egypt",
+        "phone": "+20-010-0644-3139, +20-010-900-11921"
+      }
+    },
+    "copyright": "© {year} Stellar Consulting. All Rights Reserved."
+  },
+  "modal": {
+    "title": "Schedule a Meeting with Us",
+    "fields": {
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "company": "Company Name",
+      "jobTitle": "Job Title",
+      "serviceType": "Type of Service",
+      "selectService": "Select a service"
+    },
+    "services": {
+      "advertising": "Healthcare Advertising & Brand Engagement",
+      "medicalAffairs": "Medical Affairs & Communication Solutions",
+      "marketAccess": "Market Access & Payer Strategy",
+      "healthSystem": "Health System Partnerships",
+      "technology": "Digital & Innovative Solutions"
+    },
+    "submit": "Submit",
+    "close": "Close",
+    "thankYouTitle": "Thank you!",
+    "thankYouBody1": "Thank you for submitting your request",
+    "thankYouBody2": "We will contact you ASAP"
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "About Stellar",
+      "title": "We think rigorously.",
+      "titleHighlight": "We deliver remarkably.",
+      "intro": "For 15 years, Stellar has helped healthcare organisations across the Middle East and Africa navigate complex markets — and brought together the people, ideas, and platforms that move the industry forward.",
+      "scrollHint": "Scroll to explore"
+    },
+    "mission": {
+      "label": "Mission",
+      "heading": "Empowering healthcare with strategy and scale.",
+      "body": "We empower healthcare companies with innovative event management solutions and strategic consulting services that enhance communication, drive innovation, and elevate industry standards."
+    },
+    "vision": {
+      "label": "Vision",
+      "heading": "Transforming healthcare delivery across the region.",
+      "body": "To transform healthcare delivery across the Middle East and Africa by providing innovative, high-quality solutions through strategic partnerships."
+    },
+    "why": {
+      "eyebrow": "Why Stellar",
+      "heading": "Eight reasons clients return.",
+      "items": [
+        { "title": "Exclusive focus on pharmaceutical", "body": "Every engagement is built specifically for pharma and biotech — never adapted from generic playbooks." },
+        { "title": "Proven consulting expertise", "body": "A senior team with decades of combined experience across market access, medical affairs, and brand strategy." },
+        { "title": "Comprehensive event management", "body": "From 50-person symposia to 2,000-attendee international congresses — full creative, logistics, and production." },
+        { "title": "Regulatory expertise", "body": "Deep familiarity with regional compliance frameworks across MEA — KSA, UAE, Egypt, and beyond." },
+        { "title": "Cutting-edge digital solutions", "body": "Interactive event experiences, hybrid platforms, and digital tools that engage audiences beyond the room." },
+        { "title": "Tailored creativity", "body": "We don't recycle decks or templates. Every campaign is designed for the specific brand, audience, and moment." },
+        { "title": "Expert medical training consulting", "body": "Curriculum design, faculty engagement, and accredited program development for HCPs across the region." },
+        { "title": "End-to-end support", "body": "One partner, one accountable team — from initial strategy through post-event analytics." }
+      ]
+    },
+    "values": {
+      "eyebrow": "Our Values",
+      "heading": "What we stand for.",
+      "items": [
+        { "title": "Respect", "body": "For our clients, our partners, and the patients ultimately served by our work." },
+        { "title": "Passion", "body": "We're in healthcare because the work matters. That energy shows up everywhere." },
+        { "title": "Attitude", "body": "We solve, we don't complain. Pragmatic, positive, professional." },
+        { "title": "Results-driven", "body": "Beautiful execution that also moves the metrics that matter." },
+        { "title": "Ownership", "body": "Your problem becomes ours the moment you engage us. Full stop." },
+        { "title": "Quality & excellence", "body": "Premium is a baseline, not a feature. We don't ship anything we wouldn't sign." }
+      ]
+    },
+    "team": {
+      "eyebrow": "Leadership",
+      "heading": "The people behind the work.",
+      "members": [
+  {
+    "name": "Prof. Samar Mansour",
+    "role": "Founder & CEO",
+    "bio": "A pharmaceutical industry veteran with deep regional expertise, Prof. Samar founded Stellar to bring scientific rigor and creative ambition under one roof.",
+    "linkedin": "https://www.linkedin.com/in/samar-mansour-a4821916/"
+  },
+  {
+    "name": "Dr. Yehia Akl",
+    "role": "Director of Business Development",
+    "bio": "Leads strategic partnerships across MEA, building the relationships that turn one-off engagements into long-term collaborations.",
+    "linkedin": "https://www.linkedin.com/in/yehia-akl/"
+  },
+  {
+    "name": "Dr. Tariq Nasr",
+    "role": "Creative & Marketing Manager",
+    "bio": "Translates clinical complexity into compelling creative — the bridge between scientific accuracy and audience engagement.",
+    "linkedin": "https://www.linkedin.com/in/tariq-n-b4a15216/"
+  }
+]
+    },
+    "regional": {
+      "eyebrow": "Regional Reach",
+      "heading": "Operating in 8 countries across the Middle East.",
+      "body": "From flagship offices in Dubai, Riyadh, and Cairo, we deliver on the ground in every major MEA market — with the local relationships and regulatory know-how that complex healthcare work demands.",
+      "stat": "8",
+      "statLabel": "Countries actively served"
+    },
+    "cta": {
+      "heading": "Ready to start the conversation?",
+      "body": "Whether it's a single launch event or a multi-year strategic engagement, the first step is the same.",
+      "button": "Schedule a meeting"
+    }
+  },
+  "contact": {
+    "hero": {
+      "eyebrow": "Get in touch",
+      "title": "Let's start the",
+      "titleHighlight": "conversation.",
+      "intro": "Every great engagement begins with a conversation. Tell us what you're working on — we'll respond within one business day, often the same day."
+    },
+    "form": {
+      "label": "Send us a message",
+      "fields": {
+        "name": "Full name",
+        "email": "Work email",
+        "phone": "Phone number",
+        "company": "Company",
+        "jobTitle": "Job title",
+        "country": "Country",
+        "service": "What can we help with?",
+        "message": "Tell us about your project"
+      },
+      "services": {
+        "events": "Event & Exhibition Management",
+        "advertising": "Healthcare Advertising",
+        "medicalAffairs": "Medical Affairs & Communication",
+        "marketAccess": "Market Access & Payer Strategy",
+        "healthSystem": "Health System Partnerships",
+        "scientificResearch": "Scientific Research",
+        "medicoMarketing": "Medico-Marketing",
+        "workshop": "Workshop Consultancy",
+        "technology": "Digital Solutions",
+        "other": "Something else"
+      },
+      "submit": "Send message",
+      "submitting": "Sending...",
+      "success": "Thank you. We'll be in touch within one business day.",
+      "error": "Something went wrong. Please try again or email us directly.",
+      "consent": "By submitting, you agree to our processing of your information for the purpose of responding to your inquiry."
+    },
+    "channels": {
+      "label": "Or reach us directly",
+      "items": [
+        { "type": "General inquiries", "value": "hello@stellarconsulting.com", "href": "mailto:hello@stellarconsulting.com" },
+        { "type": "Business development", "value": "business@stellarconsulting.com", "href": "mailto:business@stellarconsulting.com" },
+        { "type": "Media & press", "value": "press@stellarconsulting.com", "href": "mailto:press@stellarconsulting.com" },
+        { "type": "Careers", "value": "careers@stellarconsulting.com", "href": "mailto:careers@stellarconsulting.com" }
+      ],
+      "responseLabel": "Response time",
+      "responseValue": "Within one business day"
+    },
+    "locations": {
+      "eyebrow": "Find us",
+      "heading": "Three offices.",
+      "headingHighlight": "One region.",
+      "subtitle": "Strategic presence across MEA — local relationships, regional reach.",
+      "offices": [
+        { "city": "Dubai", "country": "United Arab Emirates", "address": "Building A2, FZA Business Park\nDubai Silicon Oasis, Dubai", "phone": "+971-52-1159-551", "email": "uae@stellarconsulting.com", "code": "01" },
+        { "city": "Riyadh", "country": "Kingdom of Saudi Arabia", "address": "7306 King Fahd Road\nAlwsham, Riyadh", "phone": "+966-5-0009-7842", "email": "ksa@stellarconsulting.com", "code": "02" },
+        { "city": "Cairo", "country": "Egypt", "address": "Villa 4, ElBanafseg 1\nNew Cairo, Cairo", "phone": "+20-010-6484-3189", "email": "egypt@stellarconsulting.com", "code": "03" }
+      ]
+    }
+  },
+  "servicesPage": {
+    "hero": {
+      "eyebrow": "Services",
+      "title": "Five disciplines.",
+      "titleHighlight": "One partner.",
+      "intro": "From strategic consulting to flawless event execution, we cover every touchpoint a healthcare brand needs across the Middle East and Africa."
+    },
+    "intro": {
+      "label": "How we work",
+      "heading": "Strategy and execution under one roof.",
+      "body": "Most agencies pick a lane — they think, or they make. We do both. The same team that develops your market access strategy can also produce the launch event that brings it to life. Fewer handoffs, tighter alignment, work that compounds."
+    },
+    "services": [
+      { "slug": "healthcare-advertising", "code": "01", "category": "Brand & Creative", "title": "Healthcare Advertising & Brand Engagement", "summary": "Creative campaigns and brand activation tailored for regulated healthcare audiences.", "deliverables": ["Multi-channel campaigns", "Brand identity systems", "Patient activation", "HCP engagement", "Creative direction"] },
+      { "slug": "medical-affairs", "code": "02", "category": "Scientific Communication", "title": "Medical Affairs & Communication Solutions", "summary": "Bridge clinical evidence with practical communication for HCPs, patients, and payers.", "deliverables": ["Advisory boards", "Medical writing", "KOL engagement", "Scientific content", "Compliance frameworks"] },
+      { "slug": "market-access", "code": "03", "category": "Strategy", "title": "Market Access & Payer Strategy", "summary": "Navigate complex regional markets with evidence-based access strategies.", "deliverables": ["Health economics", "Payer engagement", "Pricing strategy", "Reimbursement support", "Value dossiers"] },
+      { "slug": "health-system-partnerships", "code": "04", "category": "Strategy", "title": "Health System Partnerships", "summary": "Build sustainable collaborations with regional health systems and authorities.", "deliverables": ["Public-private partnerships", "Hospital programs", "Capacity building", "Policy engagement", "Outcomes-based contracts"] },
+      { "slug": "technology-services", "code": "05", "category": "Digital", "title": "Digital & Innovative Solutions", "summary": "Interactive platforms, hybrid experiences, and digital tools that engage beyond the room.", "deliverables": ["Hybrid event platforms", "Custom apps", "Interactive content", "Analytics dashboards", "AI-powered tools"] }
+    ],
+    "viewService": "View service",
+    "filters": {
+      "all": "All services",
+      "Brand & Creative": "Brand & Creative",
+      "Scientific Communication": "Scientific Communication",
+      "Strategy": "Strategy",
+      "Digital": "Digital"
+    },
+    "process": {
+      "eyebrow": "Our process",
+      "heading": "How an engagement unfolds.",
+      "steps": [
+        { "number": "01", "title": "Listen", "body": "We start by understanding the brand, the audience, the regulatory landscape, and what success looks like for you." },
+        { "number": "02", "title": "Architect", "body": "We design the strategy, channels, creative, and execution plan — always tied to measurable outcomes." },
+        { "number": "03", "title": "Execute", "body": "Our integrated team delivers — strategy, creative, production, logistics — with no handoffs between disciplines." },
+        { "number": "04", "title": "Measure", "body": "We close the loop with analytics, learnings, and recommendations that compound across future engagements." }
+      ]
+    },
+    "cta": {
+      "heading": "Not sure which service fits?",
+      "body": "Tell us about the challenge. We'll help shape the right engagement.",
+      "button": "Start a conversation"
+    }
+  },
+  "serviceDetails": {
+    "back": "Back to all services",
+    "overviewLabel": "Overview",
+    "capabilitiesLabel": "What we deliver",
+    "approachLabel": "Our approach",
+    "relatedLabel": "Related services",
+    "stats": {
+      "projects": "Projects delivered",
+      "clients": "Healthcare clients",
+      "countries": "Countries served"
+    },
+    "ctaHeading": "Ready to discuss your project?",
+    "ctaButton": "Start a conversation",
+    "items": {
+      "healthcare-advertising": {
+        "overview": "We build healthcare brand campaigns that move beyond awareness — campaigns that change perception, drive HCP engagement, and translate into measurable behavioral shifts. Every brief starts with deep audience understanding: which therapy areas, which prescriber profiles, which patient journeys we're trying to influence.",
+        "approach": [
+          { "title": "Audience-first thinking", "body": "We don't start with creative. We start with the specific HCP segment, patient profile, or payer mindset we need to reach — then build outward from there." },
+          { "title": "Compliance built-in", "body": "Every campaign goes through medical, legal, and regulatory review at the right stages — so we don't waste creative cycles on ideas that won't make it past compliance." },
+          { "title": "Channel agnostic", "body": "Print, digital, congress, OOH, hybrid events — we pick channels by audience behavior, not by what's trendy this quarter." }
+        ],
+        "stats": { "projects": "240+", "clients": "32", "countries": "8" },
+        "related": ["medical-affairs", "technology-services"]
+      },
+      "medical-affairs": {
+        "overview": "Medical affairs sits at the intersection of clinical evidence and commercial reality. We help pharma teams translate the science into materials and engagements that earn trust from KOLs, satisfy regulatory expectations, and equip field teams with what they actually need.",
+        "approach": [
+          { "title": "Scientific rigor", "body": "Every piece of content is built from primary literature and reviewed by qualified medical writers and our scientific advisory board." },
+          { "title": "Strategic KOL engagement", "body": "We don't just book speakers — we map influence networks, identify rising voices, and build long-term relationships across therapy areas." },
+          { "title": "Field-ready output", "body": "Materials are designed for the way reps actually work: short, visual, defensible, with the source data one click away." }
+        ],
+        "stats": { "projects": "180+", "clients": "28", "countries": "8" },
+        "related": ["healthcare-advertising", "health-system-partnerships"]
+      },
+      "market-access": {
+        "overview": "Market access in MEA isn't a checklist — it's eight regulatory environments, eight payer mindsets, and a constantly shifting landscape. We help global pharma teams build region-specific value stories, navigate reimbursement pathways, and engage payers as partners rather than gatekeepers.",
+        "approach": [
+          { "title": "Local intelligence", "body": "Our consultants live in the markets they cover. KSA insights come from KSA. UAE strategy comes from people who've sat across the table from MOH." },
+          { "title": "Evidence that travels", "body": "We build value dossiers that work for global HQ but adapt for each local market — same core narrative, locally relevant data." },
+          { "title": "Payer engagement, not pitching", "body": "We approach payers as long-term partners. That changes the conversation from 'sell the price' to 'solve the problem together'." }
+        ],
+        "stats": { "projects": "95+", "clients": "22", "countries": "8" },
+        "related": ["health-system-partnerships", "medical-affairs"]
+      },
+      "health-system-partnerships": {
+        "overview": "Sustainable change in healthcare doesn't happen one product at a time — it happens through partnerships with the systems that deliver care. We help pharma, medtech, and government bodies design collaborations that improve outcomes while building lasting institutional relationships.",
+        "approach": [
+          { "title": "Outcomes over outputs", "body": "We design partnerships around measurable patient outcomes — not just activity metrics like training hours or units distributed." },
+          { "title": "Multi-stakeholder alignment", "body": "Hospitals, MOHs, professional societies, NGOs — sustainable programs need all of them aligned. We build the connective tissue." },
+          { "title": "Built to scale", "body": "Pilots designed from day one to scale regionally — common protocols, shared data infrastructure, repeatable training models." }
+        ],
+        "stats": { "projects": "45+", "clients": "18", "countries": "8" },
+        "related": ["market-access", "technology-services"]
+      },
+      "technology-services": {
+        "overview": "Healthcare engagement is going hybrid permanently. We build the digital infrastructure — platforms, apps, interactive content, analytics — that lets pharma brands engage HCPs and patients across physical and digital touchpoints with consistency and measurement.",
+        "approach": [
+          { "title": "Platform-agnostic design", "body": "We build for where your audience already is — WhatsApp, web, native apps, congress platforms — rather than forcing them onto our preferred stack." },
+          { "title": "Analytics from day one", "body": "Every interaction logged, every engagement measured. We treat dashboards as a deliverable, not an afterthought." },
+          { "title": "Compliant by design", "body": "GDPR, KSA PDPL, HIPAA — privacy and consent flows baked into the architecture, not retrofitted later." }
+        ],
+        "stats": { "projects": "60+", "clients": "20", "countries": "6" },
+        "related": ["healthcare-advertising", "health-system-partnerships"]
+      }
+    }
+  },
+  "partnersPage": {
+    "hero": {
+      "eyebrow": "Partners",
+      "title": "Trusted by the names",
+      "titleHighlight": "that shape healthcare."
+    },
+    "intro": {
+      "label": "The work behind the logos",
+      "heading": "Three categories of partnership.",
+      "body": "We don't think of clients as accounts. The pharma teams who hand us a brand launch, the medical societies who accredit our programs, and the institutions that endorse our work — each plays a different role in how we deliver impact across MEA. The list below is filterable by relationship type."
+    },
+    "filters": {
+      "all": "All partners",
+      "success": "Partners in success",
+      "accreditation": "Accreditation partners",
+      "endorsing": "Endorsing partners"
+    },
+    "categoryDescriptions": {
+      "success": "The pharma and biotech companies whose brands, launches, and ongoing engagements anchor our work — many for over a decade.",
+      "accreditation": "The professional bodies and standards organizations whose accreditation gives our programs scientific weight.",
+      "endorsing": "The hospitals, foundations, and institutions whose endorsement signals confidence in how we deliver care-related work."
+    },
+    "stats": {
+      "eyebrow": "By the numbers",
+      "heading": "What sustained partnership looks like.",
+      "items": [
+        { "value": "31", "label": "Active partners" },
+        { "value": "15", "label": "Years of operation" },
+        { "value": "8", "label": "Countries served" },
+        { "value": "92%", "label": "Client retention rate" }
+      ]
+    },
+    "cta": {
+      "heading": "Could your team be next?",
+      "body": "Most partnerships start with one project. The good ones never end.",
+      "button": "Start a conversation"
+    }
+  },
+  "galleryPage": {
+    "hero": {
+      "eyebrow": "Gallery",
+      "title": "The work,",
+      "titleHighlight": "in motion."
+    },
+    "intro": {
+      "label": "Selected projects",
+      "heading": "Fifteen years of healthcare moments.",
+      "body": "Booth designs, congress productions, training programs, digital activations — a curated look at what we've built across MEA. Filter by category to focus on the type of work most relevant to you."
+    },
+    "stats": [
+      { "value": "240+", "label": "Events delivered" },
+      { "value": "8", "label": "Countries" },
+      { "value": "100K+", "label": "HCPs engaged" },
+      { "value": "15", "label": "Years building" }
+    ],
+    "cta": {
+      "heading": "Want to be in next year's gallery?",
+      "body": "The work that ends up here started with a conversation. Yours could be next.",
+      "button": "Start a conversation"
+    }
+  },
+  "blogPage": {
+    "hero": {
+      "eyebrow": "Insights",
+      "title": "Field notes",
+      "titleHighlight": "from healthcare."
+    },
+    "intro": "Strategy, execution, and the lessons learned from fifteen years of work across the Middle East and Africa.",
+    "filters": {
+      "all": "All articles"
+    },
+    "noResults": "No articles in this category yet.",
+    "minRead": "min read",
+    "publishedOn": "Published on",
+    "readMore": "Read article",
+    "back": "Back to all articles",
+    "shareLabel": "Share this article",
+    "relatedHeading": "Continue reading",
+    "ctaHeading": "Like what you read?",
+    "ctaBody": "Get our quarterly insights delivered to your inbox. No spam, ever.",
+    "ctaButton": "Start a conversation"
+  }
+}

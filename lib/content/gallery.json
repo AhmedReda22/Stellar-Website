@@ -1,0 +1,284 @@
+[
+  {
+    "id": "item-1",
+    "category": "booth",
+    "title": "Astrazenca - Booth - Africa Health ExCon",
+    "location": "Cairo, Egypt",
+    "photoCount": 4,
+    "cover": "/images/Gallery/Astrazenca - Booth - Africa Health ExCon/1.jpg",
+    "images": [
+      "/images/Gallery/Astrazenca - Booth - Africa Health ExCon/4.jpg",
+      "/images/Gallery/Astrazenca - Booth - Africa Health ExCon/3.jpg"
+    ]
+  },
+  {
+    "id": "item-2",
+    "category": "events",
+    "title": "ISPOR - UAE",
+    "location": "Abu Dhabi, UAE",
+    "photoCount": 17,
+    "cover": "/images/Gallery/ISPOR/1.jpg",
+    "images": [
+      "/images/Gallery/ISPOR/2.jpg",
+      "/images/Gallery/ISPOR/3.jpg",
+      "/images/Gallery/ISPOR/4.jpg",
+      "/images/Gallery/ISPOR/5.jpg",
+      "/images/Gallery/ISPOR/6.jpg",
+      "/images/Gallery/ISPOR/7.jpg",
+      "/images/Gallery/ISPOR/8.jpg",
+      "/images/Gallery/ISPOR/9.jpg",
+      "/images/Gallery/ISPOR/10.jpg",
+      "/images/Gallery/ISPOR/11.jpg",
+      "/images/Gallery/ISPOR/12.jpg",
+      "/images/Gallery/ISPOR/13.jpg",
+      "/images/Gallery/ISPOR/14.jpg",
+      "/images/Gallery/ISPOR/15.jpg",
+      "/images/Gallery/ISPOR/16.jpg",
+      "/images/Gallery/ISPOR/17.jpg"
+    ]
+  },
+  {
+    "id": "item-3",
+    "category": "events",
+    "title": "Cardio Excellence - EHA",
+    "location": "Cairo, Egypt",
+    "photoCount": 10,
+    "cover": "/images/Gallery/Cardio Excellence - UHIA - Egypt/1.jpg",
+    "images": [
+      "/images/Gallery/Cardio Excellence - UHIA - Egypt/2.jpg",
+      "/images/Gallery/Cardio Excellence - UHIA - Egypt/3.jpg",
+      "/images/Gallery/Cardio Excellence - UHIA - Egypt/4.jpg",
+      "/images/Gallery/Cardio Excellence - UHIA - Egypt/5.jpg",
+      "/images/Gallery/Cardio Excellence - UHIA - Egypt/6.jpg",
+      "/images/Gallery/Cardio Excellence - UHIA - Egypt/7.jpg"
+    ]
+  },
+  {
+    "id": "item-4",
+    "category": "digital",
+    "title": "MEAR - Technology",
+    "location": "Cairo, Egypt",
+    "photoCount": 3,
+    "cover": "/images/Gallery/Technology/MEAR-1.jpg",
+    "images": [
+      "/images/Gallery/Technology/MEAR-2.jpg",
+      "/images/Gallery/Technology/MEAR-3.jpg"
+    ]
+  },
+  {
+    "id": "item-5",
+    "category": "events",
+    "title": "EHA 5th Forum",
+    "location": "Cairo, Egypt",
+    "photoCount": 18,
+    "cover": "/images/Gallery/EHA 5th Forum - Egypt/1.jpg",
+    "images": [
+      "/images/Gallery/EHA 5th Forum - Egypt/2.jpg",
+      "/images/Gallery/EHA 5th Forum - Egypt/3.jpg",
+      "/images/Gallery/EHA 5th Forum - Egypt/4.jpg",
+      "/images/Gallery/EHA 5th Forum - Egypt/5.jpg",
+      "/images/Gallery/EHA 5th Forum - Egypt/6.jpg",
+      "/images/Gallery/EHA 5th Forum - Egypt/7.jpg",
+      "/images/Gallery/EHA 5th Forum - Egypt/8.jpg",
+      "/images/Gallery/EHA 5th Forum - Egypt/9.jpg",
+      "/images/Gallery/EHA 5th Forum - Egypt/10.jpg",
+      "/images/Gallery/EHA 5th Forum - Egypt/11.jpg",
+      "/images/Gallery/EHA 5th Forum - Egypt/12.jpg",
+      "/images/Gallery/EHA 5th Forum - Egypt/13.jpg",
+      "/images/Gallery/EHA 5th Forum - Egypt/14.jpg",
+      "/images/Gallery/EHA 5th Forum - Egypt/15.jpg",
+      "/images/Gallery/EHA 5th Forum - Egypt/16.jpg",
+      "/images/Gallery/EHA 5th Forum - Egypt/17.jpg",
+      "/images/Gallery/EHA 5th Forum - Egypt/18.jpg"
+    ]
+  },
+  {
+    "id": "item-6",
+    "category": "booth",
+    "title": "Pfizer Booth - Africa Health Excon",
+    "location": "Cairo, Egypt",
+    "photoCount": 13,
+    "cover": "/images/Gallery/Pfizer Booth - Africa Health Excon/1.png",
+    "images": [
+      "/images/Gallery/Pfizer Booth - Africa Health Excon/2.png",
+      "/images/Gallery/Pfizer Booth - Africa Health Excon/3.png",
+      "/images/Gallery/Pfizer Booth - Africa Health Excon/4.png",
+      "/images/Gallery/Pfizer Booth - Africa Health Excon/5.png",
+      "/images/Gallery/Pfizer Booth - Africa Health Excon/6.png",
+      "/images/Gallery/Pfizer Booth - Africa Health Excon/7.png",
+      "/images/Gallery/Pfizer Booth - Africa Health Excon/8.png",
+      "/images/Gallery/Pfizer Booth - Africa Health Excon/9.png",
+      "/images/Gallery/Pfizer Booth - Africa Health Excon/10.png",
+      "/images/Gallery/Pfizer Booth - Africa Health Excon/11.png",
+      "/images/Gallery/Pfizer Booth - Africa Health Excon/12.png",
+      "/images/Gallery/Pfizer Booth - Africa Health Excon/13.png"
+    ]
+  },
+  {
+    "id": "item-7",
+    "category": "training",
+    "title": "IPU - NHS - Medical Trainning",
+    "location": "Cairo, Egypt",
+    "photoCount": 5,
+    "cover": "/images/Gallery/IPU - NHS - Medical Trainning/1.jpg",
+    "images": [
+      "/images/Gallery/IPU - NHS - Medical Trainning/2.jpg",
+      "/images/Gallery/IPU - NHS - Medical Trainning/3.jpg",
+      "/images/Gallery/IPU - NHS - Medical Trainning/4.jpg"
+    ]
+  },
+  {
+    "id": "item-8",
+    "category": "events",
+    "title": "MEAR - Egypt",
+    "location": "Cairo, Egypt",
+    "photoCount": 7,
+    "cover": "/images/Gallery/MEAR - Egypt/1.jpg",
+    "images": [
+      "/images/Gallery/MEAR - Egypt/2.jpg",
+      "/images/Gallery/MEAR - Egypt/3.jpg",
+      "/images/Gallery/MEAR - Egypt/4.jpg",
+      "/images/Gallery/MEAR - Egypt/5.jpg",
+      "/images/Gallery/MEAR - Egypt/6.jpg",
+      "/images/Gallery/MEAR - Egypt/7.jpg"
+    ]
+  },
+  {
+    "id": "item-9",
+    "category": "training",
+    "title": "Novartis - Medical Training",
+    "location": "Cairo, Egypt",
+    "photoCount": 5,
+    "cover": "/images/Gallery/Novartis -  Medical Tranning/1.jpg",
+    "images": [
+      "/images/Gallery/Novartis -  Medical Tranning/2.jpg",
+      "/images/Gallery/Novartis -  Medical Tranning/3.jpg",
+      "/images/Gallery/Novartis -  Medical Tranning/4.jpg",
+      "/images/Gallery/Novartis -  Medical Tranning/5.jpg"
+    ]
+  },
+  {
+    "id": "item-10",
+    "category": "events",
+    "title": "Pfizer - قرارك حياة",
+    "location": "Cairo, Egypt",
+    "photoCount": 6,
+    "cover": "/images/Gallery/Pfizer - قرارك حياة - Egypt/1.jpg",
+    "images": [
+      "/images/Gallery/Pfizer - قرارك حياة - Egypt/2.jpg",
+      "/images/Gallery/Pfizer - قرارك حياة - Egypt/3.jpg",
+      "/images/Gallery/Pfizer - قرارك حياة - Egypt/4.jpg",
+      "/images/Gallery/Pfizer - قرارك حياة - Egypt/5.jpg",
+      "/images/Gallery/Pfizer - قرارك حياة - Egypt/6.jpg"
+    ]
+  },
+  {
+    "id": "item-11",
+    "category": "events",
+    "title": "Roche - Egypt",
+    "location": "Cairo, Egypt",
+    "photoCount": 7,
+    "cover": "/images/Gallery/Roche - Egypt/1.jpg",
+    "images": [
+      "/images/Gallery/Roche - Egypt/2.jpg",
+      "/images/Gallery/Roche - Egypt/3.jpg",
+      "/images/Gallery/Roche - Egypt/4.jpg",
+      "/images/Gallery/Roche - Egypt/5.jpg",
+      "/images/Gallery/Roche - Egypt/6.jpg",
+      "/images/Gallery/Roche - Egypt/7.jpg"
+    ]
+  },
+  {
+    "id": "item-12",
+    "category": "booth",
+    "title": "Takeda - Booth - Africa Health ExCon",
+    "location": "Cairo, Egypt",
+    "photoCount": 3,
+    "cover": "/images/Gallery/Takeda - Booth - Africa Health ExCon/1.jpg",
+    "images": [
+      "/images/Gallery/Takeda - Booth - Africa Health ExCon/2.jpg",
+      "/images/Gallery/Takeda - Booth - Africa Health ExCon/3.jpg"
+    ]
+  },
+  {
+    "id": "item-13",
+    "category": "digital",
+    "title": "Wegovy - Technology",
+    "location": "Qatar",
+    "photoCount": 5,
+    "cover": "/images/Gallery/Technology/Wegovy-1.jpg",
+    "images": [
+      "/images/Gallery/Technology/Wegovy-2.jpg",
+      "/images/Gallery/Technology/Wegovy-3.jpg",
+      "/images/Gallery/Technology/Wegovy-4.jpg",
+      "/images/Gallery/Technology/Wegovy-5.jpg"
+    ]
+  },
+  {
+    "id": "item-14",
+    "category": "events",
+    "title": "UHIA - 1st Forum",
+    "location": "Cairo, Egypt",
+    "photoCount": 10,
+    "cover": "/images/Gallery/UHIA - 1st Forum - Egypt/1.jpg",
+    "images": [
+      "/images/Gallery/UHIA - 1st Forum - Egypt/2.jpg",
+      "/images/Gallery/UHIA - 1st Forum - Egypt/3.jpg",
+      "/images/Gallery/UHIA - 1st Forum - Egypt/4.jpg",
+      "/images/Gallery/UHIA - 1st Forum - Egypt/5.jpg",
+      "/images/Gallery/UHIA - 1st Forum - Egypt/6.jpg",
+      "/images/Gallery/UHIA - 1st Forum - Egypt/7.jpg",
+      "/images/Gallery/UHIA - 1st Forum - Egypt/8.jpg",
+      "/images/Gallery/UHIA - 1st Forum - Egypt/9.jpg",
+      "/images/Gallery/UHIA - 1st Forum - Egypt/10.jpg"
+    ]
+  },
+  {
+    "id": "item-15",
+    "category": "booth",
+    "title": "Roche - Booth - Alex",
+    "location": "Alex, Egypt",
+    "photoCount": 5,
+    "cover": "/images/Gallery/Roche - Booth - Alex/1.png",
+    "images": [
+      "/images/Gallery/Roche - Booth - Alex/2.png",
+      "/images/Gallery/Roche - Booth - Alex/3.png",
+      "/images/Gallery/Roche - Booth - Alex/4.png",
+      "/images/Gallery/Roche - Booth - Alex/5.png"
+    ]
+  },
+  {
+    "id": "item-16",
+    "category": "events",
+    "title": "Entresto - Novartis - Cairo",
+    "location": "Cairo, Egypt",
+    "photoCount": 8,
+    "cover": "/images/Gallery/Entresto - Novartis - Cairo//j-12.jpg",
+    "images": [
+      "/images/Gallery/Entresto - Novartis - Cairo/j-24.jpg",
+      "/images/Gallery/Entresto - Novartis - Cairo/j-50.jpg",
+      "/images/Gallery/Entresto - Novartis - Cairo/j-52.jpg",
+      "/images/Gallery/Entresto - Novartis - Cairo/j-8.jpg",
+      "/images/Gallery/Entresto - Novartis - Cairo/j-9.jpg",
+      "/images/Gallery/Entresto - Novartis - Cairo/pic-156.jpg",
+      "/images/Gallery/Entresto - Novartis - Cairo/pic-300.jpg"
+    ]
+  },
+  {
+    "id": "item-17",
+    "category": "events",
+    "title": "Cardio Excellence - EHA - Cairo",
+    "location": "Cairo, Egypt",
+    "photoCount": 8,
+    "cover": "/images/Gallery/Cardio Excellence - EHA - Cairo/1.png",
+    "images": [
+      "/images/Gallery/Cardio Excellence - EHA - Cairo/2.png",
+      "/images/Gallery/Cardio Excellence - EHA - Cairo/3.png",
+      "/images/Gallery/Cardio Excellence - EHA - Cairo/4.png",
+      "/images/Gallery/Cardio Excellence - EHA - Cairo/6.png",
+      "/images/Gallery/Cardio Excellence - EHA - Cairo/7.png",
+      "/images/Gallery/Cardio Excellence - EHA - Cairo/9.png",
+      "/images/Gallery/Cardio Excellence - EHA - Cairo/10.png"
+    ]
+  }
+]
