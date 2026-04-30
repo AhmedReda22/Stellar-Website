@@ -8,7 +8,7 @@ import { usePathname } from "next/navigation";
 import type { Locale } from "@/lib/i18n/config";
 import type { Dictionary } from "@/lib/i18n/get-dictionary";
 import { cn } from "@/lib/utils";
-import { LanguageSwitcher } from "./LanguageSwitcher";
+// import { LanguageSwitcher } from "./LanguageSwitcher";
 import { ThemeToggle } from "./ThemeToggle";
 import { MeetingModal } from "./MeetingModal";
 
@@ -82,14 +82,24 @@ export function Navbar({ locale, dict }: NavbarProps) {
         <div className="container flex h-16 items-center justify-between gap-4 md:h-20">
           {/* Logo */}
           <Link href={link("/")} className="flex items-center" aria-label={dict.meta.siteName}>
-            <Image
-              src="/images/stellar.png"
-              alt={`${dict.meta.siteName} logo`}
-              width={140}
-              height={40}
-              priority
-              className="h-9 w-auto md:h-10"
-            />
+            <>
+  <Image
+    src="/images/stellar.png"
+    alt={`${dict.meta.siteName} logo`}
+    width={140}
+    height={40}
+    priority
+    className="h-9 w-auto dark:hidden md:h-10"
+  />
+  <Image
+    src="/images/Stellar Logo White.png"
+    alt={`${dict.meta.siteName} logo`}
+    width={140}
+    height={40}
+    priority
+    className="hidden h-9 w-auto dark:block md:h-10"
+  />
+</>
           </Link>
 
           {/* Desktop nav */}
@@ -125,11 +135,11 @@ export function Navbar({ locale, dict }: NavbarProps) {
 
           {/* Right cluster — controls */}
           <div className="flex items-center gap-2">
-            <LanguageSwitcher
+            {/* <LanguageSwitcher
               currentLocale={locale}
               label={dict.nav.languageSwitch}
               className="hidden sm:inline-flex"
-            />
+            /> */}
             <ThemeToggle label={dict.nav.themeToggle} />
 
             <button
@@ -186,10 +196,12 @@ export function Navbar({ locale, dict }: NavbarProps) {
               )}
 
               <div className="mt-4 flex items-center justify-between border-t border-border pt-4">
-                <LanguageSwitcher
-                  currentLocale={locale}
-                  label={dict.nav.languageSwitch}
-                />
+                {/* Language switcher hidden until Arabic is finalized
+<LanguageSwitcher
+  currentLocale={locale}
+  label={dict.nav.languageSwitch}
+/>
+*/}
                 <button
                   type="button"
                   onClick={() => {

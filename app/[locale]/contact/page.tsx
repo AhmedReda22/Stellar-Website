@@ -53,12 +53,11 @@ export default async function ContactPage({
       "@type": "Organization",
       name: siteConfig.name,
       contactPoint: dict.contact.locations.offices.map((office) => ({
-        "@type": "ContactPoint",
-        telephone: office.phone,
-        email: office.email,
-        areaServed: office.country,
-        contactType: "customer service",
-      })),
+  "@type": "ContactPoint",
+  telephone: office.phone,
+  areaServed: office.country,
+  contactType: "customer service",
+})),
     },
   };
 

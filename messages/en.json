@@ -86,19 +86,19 @@
       }
     },
     "testimonials": {
-      "eyebrow": "Client",
-      "heading": "Testimonials",
-      "items": [
-        { "quote": "I would like to thank the stellar team for the amazing efforts — enjoyed working together", "author": "Peter", "role": "AstraZeneca" },
-        { "quote": "The Stars behind the scene. Thank you team — really we are one team, same spirit, dedication and ownership as it should be. Can't thank you enough.", "author": "Mostafa Gaafary", "role": "Novartis" },
-        { "quote": "A heartfelt thank you to Stellar team for all your efforts, we really appreciate this partnership.", "author": "Karim El Samra", "role": "Takeda" },
-        { "quote": "Thank you so much Stellar team for all your support and efforts.", "author": "Mariam", "role": "Sandoz" },
-        { "quote": "I would like to thank you so much for the great efforts done in both events of Novartis Academy.", "author": "Madonna Guirgis", "role": "Key Account Manager, Novartis" },
-        { "quote": "I feel comfortable working with Stellar that I sometimes challenge myself how can an agency excel as they do.", "author": "Khaled Elkhodeiry", "role": "Senior Brand Manager, AstraZeneca" },
-        { "quote": "Thanks for the great efforts to come out with such a qualified and professional program.", "author": "Miranda Arafa", "role": "Corporate Affairs Director, North Africa, Eli Lilly" },
-        { "quote": "Thank you Stellar team for the effort for making Saphnelo launch event a special one.", "author": "Ahmed Hassabou", "role": "AstraZeneca" }
-      ]
-    },
+  "eyebrow": "Client",
+  "heading": "Testimonials",
+  "items": [
+    { "quote": "I would like to thank the stellar team for the amazing efforts — enjoyed working together", "author": "Peter", "role": "AstraZeneca", "gender": "male" },
+    { "quote": "The Stars behind the scene. Thank you team — really we are one team, same spirit, dedication and ownership as it should be. Can't thank you enough.", "author": "Mostafa Gaafary", "role": "Novartis", "gender": "male" },
+    { "quote": "A heartfelt thank you to Stellar team for all your efforts, we really appreciate this partnership.", "author": "Karim El Samra", "role": "Takeda", "gender": "male" },
+    { "quote": "Thank you so much Stellar team for all your support and efforts.", "author": "Mariam", "role": "Sandoz", "gender": "female" },
+    { "quote": "I would like to thank you so much for the great efforts done in both events of Novartis Academy.", "author": "Madonna Guirgis", "role": "Key Account Manager, Novartis", "gender": "female" },
+    { "quote": "I feel comfortable working with Stellar that I sometimes challenge myself how can an agency excel as they do.", "author": "Khaled Elkhodeiry", "role": "Senior Brand Manager, AstraZeneca", "gender": "male" },
+    { "quote": "Thanks for the great efforts to come out with such a qualified and professional program.", "author": "Miranda Arafa", "role": "Corporate Affairs Director, North Africa, Eli Lilly", "gender": "female" },
+    { "quote": "Thank you Stellar team for the effort for making Saphnelo launch event a special one.", "author": "Ahmed Hassabou", "role": "AstraZeneca", "gender": "male" }
+  ]
+},
     "partners": {
       "eyebrow": "OUR",
       "heading": "PARTNERS",
@@ -188,12 +188,12 @@
   },
   "about": {
     "hero": {
-      "eyebrow": "About Stellar",
-      "title": "We think rigorously.",
-      "titleHighlight": "We deliver remarkably.",
-      "intro": "For 15 years, Stellar has helped healthcare organisations across the Middle East and Africa navigate complex markets — and brought together the people, ideas, and platforms that move the industry forward.",
-      "scrollHint": "Scroll to explore"
-    },
+  "eyebrow": "About Stellar",
+  "title": "We think rigorously.",
+  "titleHighlight": "We deliver remarkably.",
+  "intro": "Stellar is a 360 healthcare consultancy firm providing integrated solutions across healthcare advertising, scientific communication, market access, and healthcare partnerships.\n\nFor 15 years, we have been committed to delivering premium quality and innovative solutions that exceed our customers' expectations, supporting healthcare organizations in navigating complex markets and creating meaningful impact across the healthcare ecosystem.",
+  "scrollHint": "Scroll to explore"
+},
     "mission": {
       "label": "Mission",
       "heading": "Empowering healthcare with strategy and scale.",
@@ -307,10 +307,9 @@
     "channels": {
       "label": "Or reach us directly",
       "items": [
-        { "type": "General inquiries", "value": "hello@stellarconsulting.com", "href": "mailto:hello@stellarconsulting.com" },
-        { "type": "Business development", "value": "business@stellarconsulting.com", "href": "mailto:business@stellarconsulting.com" },
-        { "type": "Media & press", "value": "press@stellarconsulting.com", "href": "mailto:press@stellarconsulting.com" },
-        { "type": "Careers", "value": "careers@stellarconsulting.com", "href": "mailto:careers@stellarconsulting.com" }
+        { "type": "General inquiries", "value": "Info@stellar.com.eg", "href": "mailto:Info@stellar.com.eg" },
+        { "type": "Marketing/Business development", "value": "Marketing@stellar.com.eg", "href": "mailto:Marketing@stellar.com.eg" },
+        { "type": "Careers", "value": "HR@stellar.com.eg", "href": "mailto:HR@stellar.com.eg" }
       ],
       "responseLabel": "Response time",
       "responseValue": "Within one business day"
@@ -439,13 +438,8 @@
   "partnersPage": {
     "hero": {
       "eyebrow": "Partners",
-      "title": "Trusted by the names",
+      "title": "Trusted by the Brands",
       "titleHighlight": "that shape healthcare."
-    },
-    "intro": {
-      "label": "The work behind the logos",
-      "heading": "Three categories of partnership.",
-      "body": "We don't think of clients as accounts. The pharma teams who hand us a brand launch, the medical societies who accredit our programs, and the institutions that endorse our work — each plays a different role in how we deliver impact across MEA. The list below is filterable by relationship type."
     },
     "filters": {
       "all": "All partners",
@@ -476,10 +470,10 @@
   },
   "galleryPage": {
     "hero": {
-      "eyebrow": "Gallery",
-      "title": "The work,",
-      "titleHighlight": "in motion."
-    },
+  "eyebrow": "Gallery",
+  "title": "Glimpses of",
+  "titleHighlight": "Greatness."
+},
     "intro": {
       "label": "Selected projects",
       "heading": "Fifteen years of healthcare moments.",

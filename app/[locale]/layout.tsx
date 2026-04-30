@@ -59,12 +59,21 @@ export async function generateMetadata({
   const { locale } = await params;
   const dict = await getDictionary(locale);
 
-  return buildMetadata({
-    locale,
-    title: `${siteConfig.name} — ${dict.meta.tagline}`,
-    description: dict.meta.description,
-    path: "",
-  });
+  return {
+    ...buildMetadata({
+      locale,
+      title: `${siteConfig.name} — ${dict.meta.tagline}`,
+      description: dict.meta.description,
+      path: "",
+    }),
+    icons: {
+  icon: [
+    { url: "/favicon.ico" },
+    { url: "/favicon.png", type: "image/png" },
+  ],
+  apple: "/favicon.png",
+},
+  };
 }
 
 // ---------------------------------------------------------------------------

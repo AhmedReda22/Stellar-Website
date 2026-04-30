@@ -70,12 +70,13 @@ export function TestimonialsSection({ locale, dict }: TestimonialsSectionProps) 
                 <div className="mx-auto max-w-3xl text-center">
                   {/* Decorative initial avatar — original site used flaticon stock images.
                       We use a colored circle with the author's initial for cleaner perf. */}
-                  <div
-                    className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-gradient-to-br from-primary to-primary-dark text-3xl font-bold text-white shadow-lg"
-                    aria-hidden
-                  >
-                    {t.author.charAt(0)}
-                  </div>
+                  <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-gradient-to-br from-primary to-primary-dark shadow-lg" aria-hidden>
+  <img
+    src={t.gender === "female" ? "/images/female.png" : "/images/male.png"}
+    alt=""
+    className="h-12 w-12 object-contain brightness-0 invert"
+  />
+</div>
                   <blockquote className="mt-7 text-lg leading-relaxed text-white/90 md:text-xl">
                     <span aria-hidden className="text-primary">❝</span> {t.quote}{" "}
                     <span aria-hidden className="text-primary">❞</span>

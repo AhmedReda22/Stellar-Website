@@ -40,7 +40,7 @@ export function Team({ dict }: TeamProps) {
                     alt={member.name}
                     fill
                     sizes="(max-width:768px) 100vw, 33vw"
-                    className="object-cover grayscale transition-all duration-700 group-hover:grayscale-0 group-hover:scale-[1.02]"
+                    className="object-cover transition-all duration-700 group-hover:scale-[1.03]"
                   />
                 </div>
 
@@ -50,10 +50,6 @@ export function Team({ dict }: TeamProps) {
 
                 <p className="mt-2 text-xs font-semibold uppercase tracking-[0.2em] text-primary">
                   {member.role}
-                </p>
-
-                <p className="mt-4 text-sm leading-relaxed text-ink-muted">
-                  {member.bio}
                 </p>
 
                 {member.linkedin && (

@@ -8,8 +8,7 @@ import { siteConfig } from "@/lib/seo/site-config";
 import { galleryItems } from "@/lib/content/gallery";
 
 import { GalleryHero } from "@/components/gallery/GalleryHero";
-import { GalleryIntro } from "@/components/gallery/GalleryIntro";
-import { GalleryStats } from "@/components/gallery/GalleryStats";
+import { GalleryHomeStats } from "@/components/gallery/GalleryHomeStats";
 import { GalleryFull } from "@/components/gallery/GalleryFull";
 import { GalleryCTA } from "@/components/gallery/GalleryCTA";
 
@@ -28,7 +27,7 @@ export async function generateMetadata({
   return buildMetadata({
     locale,
     title: `${dict.nav.gallery} — ${dict.meta.siteName}`,
-    description: dict.galleryPage.intro.body,
+    description: dict.meta.description,
     path: "/gallery",
   });
 }
@@ -46,12 +45,10 @@ export default async function GalleryPage({
     { name: dict.nav.gallery, url: `${siteConfig.url}/${locale}/gallery` },
   ]);
 
-  // ImageGallery schema for SEO + AI agents
   const galleryListSchema = {
     "@context": "https://schema.org",
     "@type": "ImageGallery",
     name: `${siteConfig.name} — ${dict.nav.gallery}`,
-    description: dict.galleryPage.intro.body,
     numberOfItems: galleryItems.length,
     associatedMedia: galleryItems.map((item) => ({
       "@type": "ImageObject",
@@ -63,20 +60,11 @@ export default async function GalleryPage({
 
   return (
     <>
-      <Script
-        id="ld-breadcrumb-gallery"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }}
-      />
-      <Script
-        id="ld-gallery"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(galleryListSchema) }}
-      />
+      <Script id="ld-breadcrumb-gallery" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }} />
+      <Script id="ld-gallery" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(galleryListSchema) }} />
 
       <GalleryHero dict={dict.galleryPage.hero} />
-      <GalleryIntro dict={dict.galleryPage.intro} />
-      <GalleryStats stats={dict.galleryPage.stats} />
+      <GalleryHomeStats />
       <GalleryFull
         filters={dict.home.gallery.filters}
         photoCountTemplate={dict.home.gallery.photoCount}

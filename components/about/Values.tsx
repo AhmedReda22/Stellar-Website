@@ -5,19 +5,19 @@ interface ValuesProps {
   dict: Dictionary["about"]["values"];
 }
 
-/**
- * Six values. After the long "Why Stellar" list, this section pivots back to
- * a calmer 2x3 grid — but the cards have NO borders, NO icons, NO hover
- * effects. Just typography and whitespace.
- *
- * The restraint is the design statement: confident brands don't decorate
- * their values, they just state them.
- */
+const valueIcons = [
+  "/images/respect.png",
+  "/images/passion.png",
+  "/images/attitude.png",
+  "/images/result.png",
+  "/images/ownership.png",
+  "/images/quality.png",
+];
+
 export function Values({ dict }: ValuesProps) {
   return (
     <section className="bg-surface-muted py-24 md:py-32">
       <div className="container">
-        {/* Centered opener — switching alignment from previous section creates rhythm */}
         <div className="mx-auto max-w-2xl text-center">
           <Reveal>
             <p className="text-xs font-semibold uppercase tracking-[0.3em] text-primary">
@@ -31,22 +31,18 @@ export function Values({ dict }: ValuesProps) {
           </Reveal>
         </div>
 
-        {/* 2x3 grid on desktop, stacked on mobile.
-            No borders between cells — gap-only separation, lots of whitespace. */}
-        <ul className="mx-auto mt-20 grid max-w-5xl gap-x-12 gap-y-16 md:grid-cols-2 lg:grid-cols-3">
+        <ul className="mx-auto mt-20 grid max-w-4xl grid-cols-2 gap-12 md:grid-cols-3 lg:gap-16">
           {dict.items.map((value, i) => (
-            <li key={i}>
+            <li key={i} className="flex flex-col items-center text-center">
               <Reveal delay={Math.min((i % 3) * 100, 200)}>
-                {/* Single magenta dot as ornament — replaces icons */}
-                <div className="flex items-center gap-3">
-                  <span className="h-1.5 w-1.5 rounded-full bg-primary" aria-hidden />
-                  <h3 className="text-lg font-semibold text-ink md:text-xl">
+                <div className="group flex flex-col items-center transition-transform hover:-translate-y-2">
+                  <div className="flex h-24 w-24 items-center justify-center rounded-full border-3 border-primary bg-white shadow-lg transition-transform group-hover:scale-110">
+                    <img src={valueIcons[i]} alt="" className="h-12 w-12 object-contain" />
+                  </div>
+                  <p className="mt-5 text-base font-bold text-ink md:text-lg">
                     {value.title}
-                  </h3>
+                  </p>
                 </div>
-                <p className="mt-3 text-sm leading-relaxed text-ink-muted md:text-base">
-                  {value.body}
-                </p>
               </Reveal>
             </li>
           ))}

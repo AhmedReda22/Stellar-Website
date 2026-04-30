@@ -24,7 +24,7 @@ export function GallerySection({ locale, dict }: GallerySectionProps) {
         <div className="mt-10">
           <GalleryGrid
             filters={dict.filters}
-            limit={9}
+            limit={12}
             photoCountTemplate={dict.photoCount}
           />
         </div>

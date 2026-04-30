@@ -7,7 +7,6 @@ import { breadcrumbSchema } from "@/lib/seo/jsonld";
 import { siteConfig } from "@/lib/seo/site-config";
 import { getAllPosts, getAllCategories } from "@/lib/content/blog";
 
-import { BlogHero } from "@/components/blog/BlogHero";
 import { BlogList } from "@/components/blog/BlogList";
 
 export function generateStaticParams() {
@@ -77,7 +76,7 @@ export default async function BlogsPage({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }}
       />
 
-      <BlogHero hero={dict.blogPage.hero} intro={dict.blogPage.intro} />
+     
       <BlogList
         locale={locale}
         posts={posts}

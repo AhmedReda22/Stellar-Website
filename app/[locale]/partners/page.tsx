@@ -8,9 +8,7 @@ import { siteConfig } from "@/lib/seo/site-config";
 import { partners } from "@/lib/content/partners";
 
 import { PartnersHero } from "@/components/partners/PartnersHero";
-import { PartnersIntro } from "@/components/partners/PartnersIntro";
 import { PartnersGrid } from "@/components/partners/PartnersGrid";
-import { PartnersStats } from "@/components/partners/PartnersStats";
 import { PartnersCTA } from "@/components/partners/PartnersCTA";
 
 export function generateStaticParams() {
@@ -25,12 +23,7 @@ export async function generateMetadata({
   const { locale } = await params;
   const dict = await getDictionary(locale);
 
-  return buildMetadata({
-    locale,
-    title: `${dict.nav.partners} — ${dict.meta.siteName}`,
-    description: dict.partnersPage.intro.body,
-    path: "/partners",
-  });
+  
 }
 
 export default async function PartnersPage({
@@ -76,12 +69,10 @@ export default async function PartnersPage({
       />
 
       <PartnersHero dict={dict.partnersPage.hero} />
-      <PartnersIntro dict={dict.partnersPage.intro} />
       <PartnersGrid
         filters={dict.partnersPage.filters}
         categoryDescriptions={dict.partnersPage.categoryDescriptions}
       />
-      <PartnersStats dict={dict.partnersPage.stats} />
       <PartnersCTA cta={dict.partnersPage.cta} modal={dict.modal} />
     </>
   );

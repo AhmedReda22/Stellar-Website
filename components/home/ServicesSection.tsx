@@ -16,31 +16,31 @@ export function ServicesSection({ locale, dict }: ServicesSectionProps) {
     {
       key: "advertising",
       href: "/services/healthcare-advertising",
-      icon: "/images/event.png",
+      icon: "/images/Healthcare Advertising & Brand Engagement.png",
       ...dict.items.advertising,
     },
     {
       key: "medicalAffairs",
       href: "/services/medical-affairs",
-      icon: "/images/innovation.png",
+      icon: "/images/Medical Affairs & Communicationn Solutions.png",
       ...dict.items.medicalAffairs,
     },
     {
       key: "marketAccess",
       href: "/services/market-access",
-      icon: "/images/workshop.png",
+      icon: "/images/Market Access & Payer Strategy.png",
       ...dict.items.marketAccess,
     },
     {
       key: "healthSystem",
       href: "/services/health-system-partnerships",
-      icon: "/images/marketing.png",
+      icon: "/images/Health System Partnerships & Payer Strategy.png",
       ...dict.items.healthSystem,
     },
     {
       key: "technology",
       href: "/services/technology-services",
-      icon: "/images/research.png",
+      icon: "/images/innovation.png",
       ...dict.items.technology,
     },
   ];

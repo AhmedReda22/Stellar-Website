@@ -14,10 +14,10 @@ export function ThemeProvider({
 }: ComponentProps<typeof NextThemesProvider>) {
   return (
     <NextThemesProvider
-      attribute="class"
-      defaultTheme="system"
-      enableSystem
-      disableTransitionOnChange
+  attribute="class"
+  defaultTheme="light"
+  enableSystem={false}
+  disableTransitionOnChange
       {...props}
     >
       {children}
