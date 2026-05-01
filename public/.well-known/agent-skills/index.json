@@ -1,0 +1,35 @@
+{
+  "$schema": "https://agentskills.io/schema/v0.2.0/index.json",
+  "skills": [
+    {
+      "name": "company-info",
+      "type": "knowledge",
+      "description": "Information about Stellar Consulting MEA - a healthcare consultancy firm operating across the Middle East and Africa for 15+ years",
+      "url": "https://stellarmea.com/en/about"
+    },
+    {
+      "name": "services-catalog",
+      "type": "knowledge",
+      "description": "Healthcare consulting services including advertising, medical affairs, market access, health system partnerships, and digital solutions",
+      "url": "https://stellarmea.com/en/services"
+    },
+    {
+      "name": "partner-network",
+      "type": "knowledge",
+      "description": "Network of 31+ pharmaceutical and healthcare partners including AstraZeneca, Novartis, Pfizer, Roche, and more",
+      "url": "https://stellarmea.com/en/partners"
+    },
+    {
+      "name": "healthcare-insights",
+      "type": "knowledge",
+      "description": "Blog articles covering healthcare marketing, medical affairs, HTA, market access, and pharmaceutical industry insights in MEA",
+      "url": "https://stellarmea.com/en/blogs"
+    },
+    {
+      "name": "contact-request",
+      "type": "action",
+      "description": "Submit a meeting request or contact form to discuss healthcare consulting needs",
+      "url": "https://stellarmea.com/en/contact"
+    }
+  ]
+}

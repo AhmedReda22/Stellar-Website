@@ -1,0 +1,25 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://stellarmea.com",
+      "service-desc": [
+        {
+          "href": "https://stellarmea.com/api/docs",
+          "type": "application/json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://stellarmea.com/en/about",
+          "type": "text/html"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://stellarmea.com/api/health",
+          "type": "application/json"
+        }
+      ]
+    }
+  ]
+}

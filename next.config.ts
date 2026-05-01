@@ -12,10 +12,13 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "cdn-icons-png.flaticon.com",
       },
+      {
+        protocol: "https",
+        hostname: "upload.wikimedia.org",
+      },
     ],
   },
 
-  // Cache static assets aggressively
   async headers() {
     return [
       {
@@ -24,6 +27,20 @@ const nextConfig: NextConfig = {
           {
             key: "Cache-Control",
             value: "public, max-age=31536000, immutable",
+          },
+        ],
+      },
+      // Link headers for agent discovery (RFC 8288)
+      {
+        source: "/:path*",
+        headers: [
+          {
+            key: "Link",
+            value: [
+              '</.well-known/api-catalog>; rel="api-catalog"',
+              '</sitemap.xml>; rel="sitemap"',
+              '</.well-known/agent-skills/index.json>; rel="agent-skills"',
+            ].join(", "),
           },
         ],
       },

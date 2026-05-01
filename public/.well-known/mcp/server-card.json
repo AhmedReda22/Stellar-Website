@@ -1,0 +1,39 @@
+{
+  "serverInfo": {
+    "name": "Stellar Consulting MEA",
+    "version": "1.0.0",
+    "description": "Healthcare consultancy firm providing integrated solutions across the Middle East and Africa"
+  },
+  "capabilities": {
+    "tools": false,
+    "resources": true,
+    "prompts": false
+  },
+  "resources": [
+    {
+      "name": "about",
+      "uri": "https://stellarmea.com/en/about",
+      "description": "About Stellar Consulting"
+    },
+    {
+      "name": "services",
+      "uri": "https://stellarmea.com/en/services",
+      "description": "Healthcare consulting services catalog"
+    },
+    {
+      "name": "partners",
+      "uri": "https://stellarmea.com/en/partners",
+      "description": "Partner network"
+    },
+    {
+      "name": "insights",
+      "uri": "https://stellarmea.com/en/blogs",
+      "description": "Healthcare industry insights and articles"
+    },
+    {
+      "name": "contact",
+      "uri": "https://stellarmea.com/en/contact",
+      "description": "Contact and meeting request"
+    }
+  ]
+}
