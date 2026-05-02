@@ -134,6 +134,88 @@ export default async function LocaleLayout({
           </main>
 
           <Footer locale={typedLocale} dict={dict} />
+          {/* WebMCP — expose site tools to AI agents via browser */}
+<script
+  dangerouslySetInnerHTML={{
+    __html: `
+      if (typeof navigator !== 'undefined' && navigator.modelContext) {
+        navigator.modelContext.provideContext({
+          tools: [
+            {
+              name: "get_company_info",
+              description: "Get information about Stellar Consulting MEA - a healthcare consultancy firm",
+              inputSchema: { type: "object", properties: {} },
+              execute: async function() {
+                return {
+                  name: "Stellar Consulting MEA",
+                  type: "Healthcare Consultancy",
+                  founded: "2009",
+                  headquarters: "Dubai, UAE",
+                  offices: ["Dubai, UAE", "Riyadh, KSA", "Cairo, Egypt"],
+                  countries: 8,
+                  partners: 31,
+                  services: [
+                    "Healthcare Advertising & Brand Engagement",
+                    "Medical Affairs & Communication Solutions",
+                    "Market Access & Payer Strategy",
+                    "Health System Partnerships",
+                    "Digital & Innovative Solutions"
+                  ],
+                  website: "https://stellarmea.com",
+                  email: "hello@stellarconsulting.com"
+                };
+              }
+            },
+            {
+              name: "get_services",
+              description: "List all healthcare consulting services offered by Stellar Consulting",
+              inputSchema: { type: "object", properties: {} },
+              execute: async function() {
+                return [
+                  { name: "Healthcare Advertising & Brand Engagement", slug: "healthcare-advertising", description: "Creative campaigns for regulated healthcare audiences" },
+                  { name: "Medical Affairs & Communication Solutions", slug: "medical-affairs", description: "Bridging clinical evidence with practical communication" },
+                  { name: "Market Access & Payer Strategy", slug: "market-access", description: "Evidence-based access strategies for MEA markets" },
+                  { name: "Health System Partnerships", slug: "health-system-partnerships", description: "Sustainable collaborations with health systems" },
+                  { name: "Digital & Innovative Solutions", slug: "technology-services", description: "Interactive platforms and digital tools" }
+                ];
+              }
+            },
+            {
+              name: "get_contact_info",
+              description: "Get contact information for Stellar Consulting offices",
+              inputSchema: { type: "object", properties: {} },
+              execute: async function() {
+                return {
+                  offices: [
+                    { city: "Dubai", country: "UAE", phone: "+971-52-1159-551", email: "uae@stellarconsulting.com" },
+                    { city: "Riyadh", country: "KSA", phone: "+966-5-0009-7842", email: "ksa@stellarconsulting.com" },
+                    { city: "Cairo", country: "Egypt", phone: "+20-010-0644-3139", email: "egypt@stellarconsulting.com" }
+                  ],
+                  general: "hello@stellarconsulting.com",
+                  website: "https://stellarmea.com"
+                };
+              }
+            },
+            {
+              name: "schedule_meeting",
+              description: "Navigate to the contact page to schedule a meeting with Stellar Consulting",
+              inputSchema: {
+                type: "object",
+                properties: {
+                  service: { type: "string", description: "The service of interest" }
+                }
+              },
+              execute: async function(input) {
+                window.location.href = "/en/contact";
+                return { status: "redirecting", destination: "/en/contact" };
+              }
+            }
+          ]
+        });
+      }
+    `,
+  }}
+/>
         </ThemeProvider>
       </body>
     </html>
